@@ -1,12 +1,12 @@
 ###Living Comfortably in NYC###
 
----App Summary (does NOT have to have its own heading, if you just want to have it follow your main heading). This should be user-facing; no technical terms or discussion of logic, just what your app does!---
+---App Summary ---
 
 
-The app will take as many user inputs regarding their monthly spend and compare it to the average New York city citizen spend. Using the 'left over' money from their monthly take home pay and assuming they invested it, the app will estimate their savings at their desired retirement date and calculate whether they have enough to retire with.
+The app will take user inputs regarding their monthly spend and compare it to the average New York city citizen spend. Using the 'left over' money from their monthly take home pay and assuming that they invested it, the app will estimate their savings at their desired retirement date, calculate whether they have enough to retire with, and recommend which appropriate NYC borough to live in to match their lifestyle spend.
 
 
----Installing and Running - how can we set up and use your app? Tell them how to download (using GitHub's "Clone or Download" button) and how to run it using node. Include a link to an article about installing node, for those who don't have it.---
+---Installing and Running ---
 
 Download Application:
 1. Go to: https://github.com/francisecleviaCI/riffy
@@ -27,7 +27,7 @@ How to run app:
 
 Once you've completed step 2 of 'How to run app", you are ready to play!
 
-1. Type 'node main.js 1 2 3 4 5' and then press ENTER
+1. Type 'node main.js 1 2 3 4 ' and then press ENTER
 
    The numbers will correspond to the following required user inputs:
 
@@ -35,19 +35,18 @@ Once you've completed step 2 of 'How to run app", you are ready to play!
     2. Monthly Spend
     3. User Age
     4. Current Savings
-    5. Desired Retirement Year
 
     For example: node main.js 6000 3000 30 500000 2055
 
     Once you've inputted all the data and pressed ENTER, the app will answer you by comparing your monthly
-    spend to the average NYC citizen, calculate your net worth at your desired retirement year based on your
+    spend to the average NYC citizen, calculate your net worth at your retirement year(Age 65) based on your
     current lifestyle, and recommend the NYC borough you should live in to live comfortably.
 
 * DISCLAIMER: The results are purely anecdotal and should not be understood as fact. Your true results will be based on your consistent long term lifestyle spend, investment strategies, and overall financial literacy and discipline.
 
-Results are based off the assumption that the difference in monthly income and spend is invested into low cost index funds that track the index of the United States' stock markets' 3000+ companies. Since the late 1920s, the US stock market has produced a return on investment(ROI) of ~10%. After including inflation, the developer decided on 8% as a conservative figure for ROI to use in the app's calculation.
+Results are based off the assumption that the difference in monthly income and spend is invested into stocks or low cost index funds that track the index of the United States' stock market's 3000+ companies. Since the late 1920s, the US stock market has produced a return on investment(ROI) of ~10%. After including inflation, the developer decided on 8% as a conservative figure for ROI to use in the app's calculation.
 
-Although retirement spending is generally lesser than pre-retirement and most investors tend to continue investing in retirement, the recommendations are based on final numbers at the desired retirement date and average annual spend based off the user's monthly spend input.
+Although retirement spending is generally lesser than pre-retirement and most investors tend to continue investing in retirement, the recommendations are based on final numbers at the retirement date and average annual spend based off the user's current monthly spend input.
 
 
 ---Technologies Used ---
