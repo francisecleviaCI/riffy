@@ -1,43 +1,20 @@
 function retirement(input1, input2, input3, input4){
-
-    
-    function retirement(str){
-    return (Input4 + [Input1 - Input2]) * Math.pow(1.08, (65 - Input3));
-    
-    }
-    let NetWorth = retirement(str)
-    console.log(NetWorth)
-    
-    //(Current Savings + (Input1 - Input2) * (1.08 ^YearstoRetirement)
-
-
-const MoneyLeft = [Input1 - Input2]*12
+return (input4 + [input1 - input2]*12) * Math.pow(1.08, (65 - input3));
+}
+    let NetWorth = retirement()
+    NetWorth;
  
- if (MoneyLeft >= 4427){
-        console.log("You can retire in Manhattan!");
-    
-} else if (MoneyLeft > 3950 && MoneyLeft < 4427){
-    console.log("You can retire in Brooklyn!");
-    
-} else if (MoneyLeft > 3367 && MoneyLeft < 3950){
-    console.log("You can retire in Queens!");
+    //(Current Savings + (Input1 - Input2) * (1.08 ^YearstoRetirement)
+// ex. (500000 + [5000 - 2000] * (1.08^)
 
-} else if (MoneyLeft > 3027 && MoneyLeft < 3367){
-    console.log("You can retire in Long Island!");
+    // investment * (Math.pow(1 + monthlyRate, months) - 1) / monthlyRate;
 
-} else if (MoneyLeft > 2907 && MoneyLeft < 3027){
-    console.log("You can retire in Staten Island!");
-
-} else if (MoneyLeft > 2366 && MoneyLeft < 2907){
-    console.log("You can retire in Bronx!");
-
-} else {
-    console.log("Sorry, you'll have to move to Arizona! :(");
-}
-
-}
-
-
-
+    // let input1 = getInput(0)  //Monthly Income
+    // console.log(input1)
+    // let input2 = getInput(1)  //Monthly Spend
+    // console.log(input2)
+    // let input3 = getInput(2)  //User Age
+    // console.log(input3)
+    // let input4 = getInput(3)  //Current Savings
 
 module.exports = retirement;
