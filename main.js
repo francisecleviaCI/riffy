@@ -31,15 +31,6 @@ let Calculation3 = moneyleft(input1, input2, input3, input4);
 console.log(Calculation3)
 
 
-//Final statement: 
-
-// console.log("Given the retirement age of 65, you are estimated to be worth" + NetWorth);
-// console.log(MoneyLeft);
-
-// // Number(NetWorth.slice(0, 6))
-// Math.trunc(Calculation2)
-
-
 
 
 
