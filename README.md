@@ -68,3 +68,11 @@ Resources:
 
 
 ---What I Learned While Making The App. ---
+
+Even with a basic app like this one, the work makes you appreciate the energy and frustrations that come with
+the development. Trial and errors felt like it never ended. During the proposal, I had 'massive' ideas,
+but quickly became satisfied with a lot less because of how much work it took to get the 'basics' down. It'll
+be interesting to see what I think about this app a few months down the line. Maybe I'll realize that I settled
+to easily or maybe I'll think that I really couldn't do much more at this instance because of the requisite 
+knowledge level. Although it's about 80% of what I wanted with still obvious kinks to be worked out, I'm
+pretty satisfied at this go around and hope to build on from here.
