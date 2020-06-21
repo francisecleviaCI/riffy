@@ -26,7 +26,7 @@ if (input1 === undefined || input2 === undefined || input3 === undefined || inpu
 let Calculation = newYork(input1, input2, input3, input4);
 console.log(Calculation)
 let Calculation2 = retirement(input1, input2, input3, input4);
-console.log("Given the retirement age of 65, you are estimated to be worth " + Math.trunc(Calculation2))
+console.log("Given the retirement age of 65, you are estimated to be worth " + "$" + String(Calculation2).substring(0,7) + "!")
 let Calculation3 = moneyleft(input1, input2, input3, input4);
 console.log(Calculation3)
 
@@ -36,7 +36,8 @@ console.log(Calculation3)
 // console.log("Given the retirement age of 65, you are estimated to be worth" + NetWorth);
 // console.log(MoneyLeft);
 
-
+// // Number(NetWorth.slice(0, 6))
+// Math.trunc(Calculation2)
 
 
 

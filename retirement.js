@@ -1,7 +1,7 @@
 function retirement(input1, input2, input3, input4){
-return (input4 + [input1 - input2]*12) * Math.pow(1.08, (65 - input3));
+return (input4 + ([input1 - input2]*12)) * Math.pow(1.08, (65 - input3));
 }
-    let NetWorth = retirement()
+    let NetWorth = retirement();
     NetWorth;
  
     //(Current Savings + (Input1 - Input2) * (1.08 ^YearstoRetirement)
@@ -17,4 +17,9 @@ return (input4 + [input1 - input2]*12) * Math.pow(1.08, (65 - input3));
     // console.log(input3)
     // let input4 = getInput(3)  //Current Savings
 
+//     const str_a = a.toString();
+// const result = Number(str_a.slice(0, 6));
+
 module.exports = retirement;
+
+// (input4 + [input1 - input2]*12) * Math.pow(1.08, (65 - input3));
