@@ -4,13 +4,13 @@ const moneyleft = require('./money-left.js')
 
 
 let input1 = getInput(0)  //Monthly Income
-console.log(input1)
+console.log('Your monthly income is ' + input1)
 let input2 = getInput(1)  //Monthly Spend
-console.log(input2)
+console.log('Your monthly spend is ' + input2)
 let input3 = getInput(2)  //User Age
-console.log(input3)
+console.log('Your age is ' + input3)
 let input4 = getInput(3)  //Current Savings
-console.log(input4)
+console.log('Your current savings amount is ' + input4)
 
 
 // Our helper function here! Don't  touch!
