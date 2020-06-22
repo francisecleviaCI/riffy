@@ -36,7 +36,7 @@ Once you've completed step 2 of 'How to run app", you are ready to play!
     3. User Age
     4. Current Savings
 
-    For example: node main.js 6000 3000 30 500000 2055
+    For example: node main.js 6000 3000 30 500000
 
     Once you've inputted all the data and pressed ENTER, the app will answer you by comparing your monthly
     spend to the average NYC citizen, calculate your net worth at your retirement year(Age 65) based on your
