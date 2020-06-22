@@ -1,12 +1,12 @@
-###Living Comfortably in NYC###
+###Retiring Comfortably in NYC###
 
----App Summary ---
-
-
-The app will take user inputs regarding their monthly spend and compare it to the average New York city citizen spend. Using the 'left over' money from their monthly take home pay and assuming that they invested it, the app will estimate their savings at their desired retirement date, calculate whether they have enough to retire with, and recommend which appropriate NYC borough to live in to match their lifestyle spend.
+--- App Summary ---
 
 
----Installing and Running ---
+The app will take user inputs regarding their monthly income and spend. Using the 'left over' money from their monthly take home pay and assuming that they invested it, the app will estimate their savings at the average retirement age of 65 and recommend which appropriate NYC borough to live in to match their lifestyle spend.
+
+
+--- Installing and Running ---
 
 Download Application:
 1. Go to: https://github.com/francisecleviaCI/riffy
@@ -23,7 +23,7 @@ How to run app:
 2. Type in the app's folder addresss and press Enter.
 
 
----How To Use This App - what arguments should the user pass to it? Bonus points for screenshots of your app in action in the terminal!---
+--- How To Use This App ---
 
 Once you've completed step 2 of 'How to run app", you are ready to play!
 
@@ -49,7 +49,7 @@ Results are based off the assumption that the difference in monthly income and s
 Although retirement spending is generally lesser than pre-retirement and most investors tend to continue investing in retirement, the recommendations are based on final numbers at the retirement date and average annual spend based off the user's current monthly spend input.
 
 
----Technologies Used ---
+--- Technologies Used ---
 
 * To obtain the most accurate results, users should be detailed in tracking their monthly spend. Apps such as Mint or You Need a Budget (YNAB) can assist.
 
@@ -67,12 +67,9 @@ Resources:
         - Bronx: $2,366
 
 
----What I Learned While Making The App. ---
+--- What I Learned While Making The App ---
 
 Even with a basic app like this one, the work makes you appreciate the energy and frustrations that come with
-the development. Trial and errors felt like it never ended. During the proposal, I had 'massive' ideas,
+the development. Trial and errors felt like they never ended. During the proposal, I had 'massive' ideas,
 but quickly became satisfied with a lot less because of how much work it took to get the 'basics' down. It'll
-be interesting to see what I think about this app a few months down the line. Maybe I'll realize that I settled
-to easily or maybe I'll think that I really couldn't do much more at this instance because of the requisite 
-knowledge level. Although it's about 80% of what I wanted with still obvious kinks to be worked out, I'm
-pretty satisfied at this go around and hope to build on from here.
+be interesting to see what I think about this app a few months down the line. Maybe I'll realize that I settled too easily or I'll think that I really couldn't do much more at this instance because of the requisite knowledge level. Although it's about 80% of what I wanted with still obvious kinks to be worked out, I'm pretty satisfied at this go around and hope to build on from here.
